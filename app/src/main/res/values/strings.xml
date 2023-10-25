@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">My Application</string>
+        <string name="intro">Welcome to WhatsApp</string>
+        <string name="policy_intro">Read our Privacy Policy.Tap \'Agree and continue\' to accept the Terms of Service.</string>
+        <string name="btn_data">Agree and continue</string>
+        <string name="login_data">Whatsapp will need to verify your account.What\'\s my number?</string>
+        <string name="help">Help</string>
+        <string name="setting">Setting</string>
+        <string name="next">Next</string>
+        <string name="choose">choose a country</string>
+        <string name="enter">Phone number</string>
+        <string name="apply">Carrier charges may apply</string>
+        <string name="select">Select language</string>
+        <string name="info_for_verify">Use your other phone to confirm moving WhatsApp to this one</string>
+        <string name="info_data_verify">Open WhatsApp on your other phone to get the 6-digit code.</string>
+        <string name="info_for_help">Need help getting a code?</string>
+        <string name="info_for_time">you may request a new code in</string>
+
+        <string-array name="lang">
+            <item>English</item>
+            <item>Kannada</item>
+            <!--        <item>Arabic</item>-->
+            <!--        <item>Hindi</item>-->
+            <!--        <item>French</item>-->
+        </string-array>
+
+        <string-array name="dataToTranslate">
+            <item>app_name</item>
+            <item>intro</item>
+            <item>policy_intro</item>
+            <item>btn_data</item>
+            <item>login_data</item>
+            <item>help</item>
+            <item>setting</item>
+            <item>next</item>
+            <item>choose</item>
+            <item>enter</item>
+            <item>apply</item>
+            <item>select</item>
+            <item>info_for_verify</item>
+            <item>info_data_verify</item>
+            <item>info_for_help</item>
+            <item>info_for_time</item>
+        </string-array>
+</resources>
