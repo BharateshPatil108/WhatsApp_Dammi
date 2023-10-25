@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.menu_item) {
-            //TODO
+            Toast.makeText(this, "help item clicked", Toast.LENGTH_SHORT).show();
             return true;
         }
 

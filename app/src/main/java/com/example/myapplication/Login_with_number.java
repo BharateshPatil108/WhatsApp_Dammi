@@ -185,10 +185,10 @@ public class Login_with_number extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item:
-                // Handle the Menu Item click
+                Toast.makeText(this, "help item clicked", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.menu_item1:
-                // Handle the Menu Item click
+                Toast.makeText(this, "Setting item clicked", Toast.LENGTH_SHORT).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

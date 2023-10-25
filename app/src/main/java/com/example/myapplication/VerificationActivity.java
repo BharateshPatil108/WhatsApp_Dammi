@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -67,7 +68,7 @@ public class VerificationActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.menu_item) {
-            //TODO
+            Toast.makeText(this, "help item clicked", Toast.LENGTH_SHORT).show();
             return true;
         }
 
