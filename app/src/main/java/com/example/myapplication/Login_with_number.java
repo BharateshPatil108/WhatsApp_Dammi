@@ -3,6 +3,7 @@ package com.example.myapplication;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
@@ -185,7 +186,9 @@ public class Login_with_number extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item:
-                Toast.makeText(this, "help item clicked", Toast.LENGTH_SHORT).show();
+                Uri webpage = Uri.parse("https://web.whatsapp.com");
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+                startActivity(intent);
                 return true;
             case R.id.menu_item1:
                 Toast.makeText(this, "Setting item clicked", Toast.LENGTH_SHORT).show();

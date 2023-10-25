@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Spannable;
@@ -68,7 +69,9 @@ public class VerificationActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.menu_item) {
-            Toast.makeText(this, "help item clicked", Toast.LENGTH_SHORT).show();
+            Uri webpage = Uri.parse("https://web.whatsapp.com");
+            Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+            startActivity(intent);
             return true;
         }
 
