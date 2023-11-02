@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro">ವಾಟ್ಸಪ್ ಗೆ ಸ್ವಾಗತ</string>
+    <string name="policy_intro">ನಮ್ಮ ಗೌಪ್ಯತೆ ನೀತಿಯನ್ನು ಓದಿ. ಸೇವಾ ನಿಯಮಗಳನ್ನು ಒಪ್ಪಿಕೊಳ್ಳಲು \'ಸಮ್ಮತಿಸಿ ಮತ್ತು ಮುಂದುವರಿಸಿ\' ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="btn_data">ಸ್ವೀಕರಿಸಿ ಮತ್ತು ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="select">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="choose">ಒಂದು ದೇಶವನ್ನು ಆರಿಸಿ</string>
+    <string name="login_data">ವಾಟ್ಸಪ್ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸುವ ಅಗತ್ಯವಿದೆ. ನನ್ನ ಸಂಖ್ಯೆ ಯಾವುದು?</string>
+    <string name="enter">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="apply">ವಾಹಕ ಶುಲ್ಕಗಳು ಅನ್ವಯಿಸಬಹುದು</string>
+    <string name="next">ಮುಂದೆ</string>
+    <string name="info_for_verify">Use your other phone to confirm moving WhatsApp to this one</string>
+    <string name="info_data_verify">6-ಅಂಕಿಯ ಕೋಡ್ ಪಡೆಯಲು ನಿಮ್ಮ ಇನ್ನೊಂದು ಫೋನ್‌ನಲ್ಲಿ ವಾಟ್ಸಪ್ ತೆರೆಯಿರಿ.</string>
+    <string name="info_for_help">Need help getting a code?</string>
+    <string name="info_for_time">ನೀವು ಹೊಸ ಕೋಡ್ ಅನ್ನು ವಿನಂತಿಸಬಹುದು</string>
+    <string name="help">ಸಹಾಯ</string>
+    <string name="setting">ಸಂಯೋಜನೆಗಳು</string>
+
+    <string-array name="lang">
+        <item>ಆಂಗ್ಲ</item>
+        <item>ಕನ್ನಡ</item>
+        <!--        <item>ಅರೇಬಿಕ್</item>-->
+        <!--        <item>ಹಿಂದಿ</item>-->
+        <!--        <item>ಫ್ರೆಂಚ್</item>-->
+    </string-array>
+</resources>

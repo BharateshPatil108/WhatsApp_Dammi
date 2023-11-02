@@ -101,43 +101,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-//    public void translateText() {
-//        FirebaseTranslatorOptions options = new FirebaseTranslatorOptions.Builder()
-//                .setSourceLanguage(FirebaseTranslateLanguage.EN)
-//                .setTargetLanguage(FirebaseTranslateLanguage.HI)
-//                .build();
-//
-//        FirebaseTranslator translator = FirebaseNaturalLanguage.getInstance().getTranslator(options);
-//        FirebaseModelDownloadConditions conditions = new FirebaseModelDownloadConditions.Builder().build();
-//
-//        translator.downloadModelIfNeeded(conditions).addOnSuccessListener(new OnSuccessListener<Void>() {
-//            @Override
-//            public void onSuccess(Void unused) {
-//                translator.translate("hello").addOnSuccessListener(new OnSuccessListener<String>() {
-//                    @Override
-//                    public void onSuccess(String s) {
-//                        Log.d("TAG", " bharatesh" +s);
-//                    }
-//                });
-//            }
-//        });
-//   }
-
-//    public static void translateStrings(Context context, String targetLanguage) {
-//        Resources resources = context.getResources();
-//        String[] stringKeys = resources.getStringArray(R.array.dataToTranslate); // Define an array of string keys to translate
-//
-//        for (String stringKey : stringKeys) {
-//            int resourceId = resources.getIdentifier(stringKey, "string", context.getPackageName());
-//            String originalText = resources.getString(resourceId);
-//            String translatedText = translateText(originalText, targetLanguage);
-//
-//            // TODO: Store or use translatedText as needed
-//            // For example, you can update the strings in your app dynamically
-//        }
-//    }
-
-
     private void textColorChange() {
         String fullText = textView2.getText().toString();
         SpannableString spannableString = new SpannableString(fullText);
